@@ -3,6 +3,7 @@ include "config/database.php";
 
 $message = "";
 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $full_name = mysqli_real_escape_string($conn, $_POST['full_name']);
